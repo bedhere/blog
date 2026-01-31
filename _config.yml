@@ -102,5 +102,5 @@ theme: butterfly
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
     type: git
-    repository: https://github.com/bedhere/bedhere.github.io.git
+    repository: git@github.com:bedhere/bedhere.github.io.git
     branch: main
