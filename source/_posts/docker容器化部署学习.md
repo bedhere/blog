@@ -1,5 +1,5 @@
 ---
-title: langchain-chatchat项目部署
+title: docker容器化部署的学习
 date: 2026-02-01 02:07:08
 description: chatchat部署详细流程
 sticky: 
