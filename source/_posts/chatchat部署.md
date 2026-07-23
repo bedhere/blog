@@ -9,10 +9,9 @@ tags:
   - LangChain
   - 本地部署
 categories:
-  - [技术，AI]
-cover: 
+  - [技术, AI]
+cover: /img/food4.png
 top_img: 
-sticky: 
 
 ---
 

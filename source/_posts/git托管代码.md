@@ -3,16 +3,15 @@ title: GitHub Git 部署与常用指令
 date: 2026-02-03 02:07:08
 updated: 2026-03-30 00:00:00   # 更新日期（可选）
 description: 以 Hexo 博客为例，详解 Git 双仓库部署流程与常用指令速查
-keywords: [Git, GitHub, Hexo, 部署，SSH, 常用命令]
+keywords: [Git, GitHub, Hexo, 部署, SSH, 常用命令]
 tags:
   - Git
   - GitHub
   - Hexo
 categories:
-  - [技术，工具]
-cover: 
+  - [技术, 工具]
+cover: /img/food5.png
 top_img: 
-sticky: 
 
 ---
 
@@ -28,7 +27,7 @@ graph TB
 ```
 
 - **源码仓库**：`hexo-blog-source` - 备份文章、主题、配置
-- **Pages 仓库**：`bedhere.github.io` - 存放静态页面，自动部署上线
+- **Pages 仓库**：`bedhere.github.io` - 存放静态页面, 自动部署上线
 
 ---
 
@@ -36,7 +35,7 @@ graph TB
 
 ### 2.1 HTTPS 方式（初始推荐）
 
-**优点**：配置简单，无需生成密钥  
+**优点**：配置简单, 无需生成密钥  
 **缺点**：每次推送需输入账号密码
 
 ```bash
@@ -52,7 +51,7 @@ git remote -v
 
 ### 2.2 SSH 方式（长期推荐）
 
-**优点**：一次配置永久使用，无需重复输入密码  
+**优点**：一次配置永久使用, 无需重复输入密码  
 **缺点**：首次需生成 SSH Key
 
 #### （1）生成 SSH Key
@@ -62,7 +61,7 @@ git remote -v
 ssh-keygen -t rsa -C "your@email.com"
 ```
 
-> 💡 提示：一路回车即可，默认保存在 `~/.ssh/id_rsa.pub`
+> 💡 提示：一路回车即可, 默认保存在 `~/.ssh/id_rsa.pub`
 
 #### （2）复制公钥
 
@@ -115,7 +114,7 @@ git remote add pages https://github.com/bedhere/bedhere.github.io.git
 
 ### 3.2 配置 .gitignore
 
-创建 `.gitignore` 文件，排除无关文件：
+创建 `.gitignore` 文件, 排除无关文件：
 
 ```gitignore
 node_modules/
@@ -309,9 +308,9 @@ git push source main
 
 **核心要点**：
 - ✅ **双仓库分离**：源码与部署产物分开管理
-- ✅ **SSH 优先**：一次配置永久使用，避免反复输入密码
+- ✅ **SSH 优先**：一次配置永久使用, 避免反复输入密码
 - ✅ **定期备份**：每次写文章后记得 `git push source main`
-- ✅ **部署顺序**：先 `hexo g` 生成，再 `hexo d` 部署
+- ✅ **部署顺序**：先 `hexo g` 生成, 再 `hexo d` 部署
 
 **最佳实践**：
 ```bash

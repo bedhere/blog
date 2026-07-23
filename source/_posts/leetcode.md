@@ -2,7 +2,13 @@
 title: leetcode练习
 date: 2026-02-07 03:07:08
 description: 力扣算法练习
-sticky:
+tags:
+  - 算法
+  - LeetCode
+  - 学习笔记
+categories:
+  - [技术, 算法]
+cover: /img/food10.png
 ---
 # leetcode练习  
 

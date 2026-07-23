@@ -9,7 +9,7 @@ tags:
   - Git
 categories:
   - [技术, 博客]
-cover: 
+cover: /img/food6.png
 top_img: 
 ---
 

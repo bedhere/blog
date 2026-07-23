@@ -2,6 +2,7 @@
 title: Java 常用数据结构与工具类速查
 date: 2026-03-30 10:30:00
 tags: [Java, 数据结构, 学习笔记]
+categories: [技术, Java]
 description: Java 常用集合类、字符串操作及输入输出快速参考指南
 cover: /img/139917560_p14.png
 ---

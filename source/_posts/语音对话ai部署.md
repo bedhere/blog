@@ -3,16 +3,15 @@ title: 语音对话ai部署
 date: 2026-02-04 02:07:08
 updated: 2026-03-30 00:00:00   # 更新日期（可选）
 description: 基于硅基流动 API 实现 ASR + LLM + TTS 的全链路语音对话 AI，Spring Boot 后端 + Vue 前端
-keywords: [AI, 语音对话，硅基流动，Spring Boot, Vue, ASR, TTS]
+keywords: [AI, 语音对话, 硅基流动, Spring Boot, Vue, ASR, TTS]
 tags:
   - AI
   - Spring Boot
   - Vue
 categories:
-  - [技术，AI]
-cover: 
+  - [技术, AI]
+cover: /img/food8.png
 top_img: 
-sticky: 
 
 ---
 
