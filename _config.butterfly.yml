@@ -49,7 +49,7 @@ code_blocks:
 #   icon: link || the description || color
 social:
  fab fa-github: https://github.com/bedhere || Github || '#24292e'
- fas fa-envelope: mailto:xxxxxx@gmail.com || Email || '#4a7dbe'
+ fas fa-envelope: mailto:bedhere3118@163.com || Email || '#4a7dbe'
 
 # --------------------------------------
 # Image Settings
@@ -494,8 +494,8 @@ math:
 search:
   # Choose: algolia_search / local_search / docsearch
   # leave it empty if you don't need search
-  use:
-  placeholder:
+  use: local_search
+  placeholder: 搜索文章
 
   # Algolia Search
   algolia_search:
@@ -1027,7 +1027,7 @@ instantpage: false
 # Lazyload
 # https://github.com/verlok/vanilla-lazyload
 lazyload:
-  enable: false
+  enable: true
   # Use browser's native lazyload instead of vanilla-lazyload
   native: false
   # Specify the field to use lazyload (site or post)
